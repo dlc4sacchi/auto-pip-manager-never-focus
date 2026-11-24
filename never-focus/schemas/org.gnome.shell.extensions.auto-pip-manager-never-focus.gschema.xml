@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.auto-pip-manager-never-focus"
+          path="/org/gnome/shell/extensions/auto-pip-manager-never-focus/">
+    <key name="never-in-focus" type="b">
+      <default>true</default>
+      <summary>Never in focus</summary>
+      <description>Restore focus to another window after a PiP window receives it, including after moving and switching workspaces.</description>
+    </key>
+    <key name="do-not-show-on-overview" type="b">
+      <default>false</default>
+      <summary>Do not show on Overview</summary>
+      <description>Keep PiP windows out of workspace previews and thumbnails.</description>
+    </key>
+    <key name="corner" type="s">
+      <default>'bottom-right'</default>
+      <summary>Corner position</summary>
+      <description>Corner of the screen where the PiP window will be placed: top-left, top-right, bottom-right, bottom-left</description>
+    </key>
+    <key name="offset" type="i">
+      <default>20</default>
+      <range min="0" max="50"/>
+      <summary>Offset in pixels</summary>
+      <description>Distance from the chosen corner in pixels</description>
+    </key>
+    <key name="always-on-top" type="b">
+      <default>true</default>
+      <summary>Always on top</summary>
+      <description>Keep PiP windows above all other windows</description>
+    </key>
+    <key name="always-on-all-workspaces" type="b">
+      <default>true</default>
+      <summary>Always on all workspaces</summary>
+      <description>Show PiP windows on every workspace</description>
+    </key>
+  </schema>
+</schemalist>

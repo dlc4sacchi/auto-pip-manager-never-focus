@@ -1,2 +1,6 @@
 locale/
 po/
+
+!/never-focus/prefs.js
+!/never-focus/po/
+/never-focus/schemas/gschemas.compiled

@@ -1,0 +1,14 @@
+{
+  "description": "Snaps PiP windows to a nearest corner. Automatically sets picture-in-picture windows to always-on-top and visible on all workspaces.",
+  "name": "Auto PiP Manager (Never Focus fork)",
+  "settings-schema": "org.gnome.shell.extensions.auto-pip-manager-never-focus",
+  "shell-version": [
+    "49",
+    "50",
+    "51"
+  ],
+  "url": "https://github.com/dlc4sacchi/auto-pip-manager-never-focus",
+  "uuid": "auto-pip-manager-never-focus@saint.local",
+  "version": 1,
+  "gettext-domain": "auto-pip-manager-never-focus@saint.local"
+}
